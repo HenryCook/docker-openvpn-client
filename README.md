@@ -17,7 +17,7 @@ This is done via the `--volume` docker run option.
 
 #### Privileged
 
-In order for OpenVPN to do the various bits of networking magic you will need to use the `-privileged'` docker run option, if not it'll fail to create the `/dev/tun` node or make amendments to iptables.
+In order for OpenVPN to do the various bits of networking magic you will need to use the `-privileged` docker run option, if not it'll fail to create the `/dev/tun` node or make amendments to iptables.
 
 
 #### Tunnels
