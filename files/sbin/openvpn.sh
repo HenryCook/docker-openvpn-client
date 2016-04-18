@@ -21,7 +21,7 @@ while getopts ":ht:" opt; do
     esac
 done
 
-if ps -ef | egrep -v 'grep|openvpn.sh' | grep -q openvpn; then
+if ps -ef | egrep -v 'grep|openvpn.sh' | grep openvpn; then
     echo "Service already running, please restart container to apply changes"
 else	
 	# OpenVPN brings up the tunnel
